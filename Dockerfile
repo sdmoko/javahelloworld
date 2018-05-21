@@ -4,6 +4,7 @@ COPY src /home/root/javahelloworld/src
 
 WORKDIR /home/root/javahelloworld
 
+RUN ls -lah
 RUN mkdir bin
 RUN javac -d bin src/HelloWorld.java
 
